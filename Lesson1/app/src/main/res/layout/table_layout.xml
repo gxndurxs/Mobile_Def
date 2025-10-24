@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    android:padding="8dp">
+
+<TableRow
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<Button
+    android:id="@+id/btnTopLeft"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="BUTTON" />
+
+<TextView
+    android:id="@+id/tvCaption"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:text="This is Table View!" />
+
+<Button
+    android:id="@+id/btnTopRight"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="BUTTON" />
+</TableRow>
+
+<TableRow
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<Button
+    android:id="@+id/btnMiddle"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="BUTTON" />
+
+<CheckBox
+    android:id="@+id/chkAgree"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="CheckBox" />
+</TableRow>
+
+<TableRow
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<ImageButton
+    android:id="@+id/btnPower"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:src="@android:drawable/ic_lock_power_off"
+    android:contentDescription="@string/desc_power"
+    android:backgroundTint="@null" />
+
+<Button
+    android:id="@+id/btnBottomCenter"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="BUTTON" />
+
+<Button
+    android:id="@+id/btnBottomRight"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="BUTTON" />
+</TableRow>
+
+</TableLayout>

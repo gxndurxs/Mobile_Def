@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "581824231593",
+    "project_id": "mireaproject-b8398",
+    "storage_bucket": "mireaproject-b8398.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581824231593:android:2ce5d8920b49c892da91b8",
+        "android_client_info": {
+          "package_name": "ru.mirea.ostrovskiy.mireaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581824231593-pqj6r88vqf4b5ie10p1sop1aalp1ed0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.mirea.ostrovskiy.mireaproject",
+            "certificate_hash": "31fbfd3f13c3e3cc80c8a97571aaabe7e1d1cfc4"
+          }
+        },
+        {
+          "client_id": "581824231593-752r4aucd70tb6tsn7in1brmacmkelcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJprj4TqXRhuecqglon4Ul3iNhLfLuncI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581824231593-752r4aucd70tb6tsn7in1brmacmkelcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

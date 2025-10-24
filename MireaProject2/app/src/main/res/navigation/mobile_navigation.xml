@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.ostrovskiy.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.ostrovskiy.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.ostrovskiy.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.ostrovskiy.mireaproject.data.DataFragment"
+        android:label="@string/menu_data"
+        tools:layout="@layout/fragment_data" />
+
+    <fragment
+        android:id="@+id/nav_webView"
+        android:name="ru.mirea.ostrovskiy.mireaproject.webview.WebViewFragment"
+        android:label="@string/menu_webview"
+        tools:layout="@layout/fragment_web_view" />
+
+    <fragment
+        android:id="@+id/nav_worker"
+        android:name="ru.mirea.ostrovskiy.mireaproject.worker.WorkerFragment"
+        android:label="WorkManager"
+        tools:layout="@layout/fragment_worker" />
+
+    <fragment
+        android:id="@+id/nav_hardware"
+        android:name="ru.mirea.ostrovskiy.mireaproject.ui.HardwareFragment"
+        android:label="Hardware Features"
+        tools:layout="@layout/fragment_hardware" />
+
+    <fragment
+        android:id="@+id/nav_altitude"
+        android:name="ru.mirea.ostrovskiy.mireaproject.ui.AltitudeFragment"
+        android:label="Влияние высоты"
+        tools:layout="@layout/fragment_altitude" />
+
+    <fragment
+        android:id="@+id/nav_photo_gallery"
+        android:name="ru.mirea.ostrovskiy.mireaproject.ui.PhotoGalleryFragment"
+        android:label="Фотогалерея"
+        tools:layout="@layout/fragment_photo_gallery" />
+
+    <fragment
+        android:id="@+id/nav_audio_notes"
+        android:name="ru.mirea.ostrovskiy.mireaproject.ui.AudioNotesFragment"
+        android:label="Голосовые заметки"
+        tools:layout="@layout/fragment_audio_notes" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.ostrovskiy.mireaproject.profile.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_file_worker"
+        android:name="ru.mirea.ostrovskiy.mireaproject.filework.FileWorkerFragment"
+        android:label="Работа с файлами"
+        tools:layout="@layout/fragment_file_worker" />
+
+    <fragment
+        android:id="@+id/nav_joke"
+        android:name="ru.mirea.ostrovskiy.mireaproject.joke.JokeFragment"
+        android:label="Случайная шутка"
+        tools:layout="@layout/fragment_joke" />
+
+</navigation>
